@@ -18,7 +18,6 @@ public class CommonDriver {
 
     private int elementDetectionTimeout; //Implicit Wait
 
-
     public CommonDriver(String browserType) throws Exception {
         //Logic for Invoking the Browser
         pageLoadTimeOut =10;
@@ -49,14 +48,6 @@ public class CommonDriver {
         driver.manage().timeouts().pageLoadTimeout(pageLoadTimeOut, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(elementDetectionTimeout, TimeUnit.SECONDS);
         driver.get(url);
-    }
-
-    public void acceptAlert(){
-        driver.switchTo().alert().accept();
-    }
-
-    public void dismissAlert(){
-        driver.switchTo().alert().dismiss();
     }
 
     public WebDriver getDriver() {
