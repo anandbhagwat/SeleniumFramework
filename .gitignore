@@ -4,5 +4,7 @@ reports/
 screenshots/
 classes
 /*.class
+.idea/
+/.idea/
 
 
