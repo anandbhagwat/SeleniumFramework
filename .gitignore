@@ -1,7 +1,7 @@
 .idea
 SeleniumFramework.iml
-reports/
-screenshots/
+reports/*
+screenshots/*
 classes
 /*.class
 .idea/
