@@ -37,12 +37,13 @@
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>4.2.2</version>
-            <scope>test, main</scope>
+            <scope>compile</scope>
         </dependency>
 
 
 
 
     </dependencies>
+
 
 </project>

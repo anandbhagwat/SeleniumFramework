@@ -14,7 +14,6 @@ public class LoginTest extends BaseTests{
             String expectTitle= "Guru99 Bank Manager HomePage";
             String actualTitle;
             actualTitle = commonDriver.getTitleOfThePage();
-
             Assert.assertEquals(actualTitle, expectTitle);
 
     }

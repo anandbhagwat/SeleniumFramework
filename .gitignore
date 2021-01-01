@@ -4,5 +4,8 @@ classes
 /*.class
 .idea/
 /.idea/
+/target
+target/
+
 
 
