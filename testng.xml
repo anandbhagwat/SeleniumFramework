@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/anand/SeleniumFramework/src/test/java/com/tests/LoginTest.java">
+        <parameter name="username" value="mngr301491"></parameter>
+        <parameter name="password" value="savYvuq"></parameter>
+        <classes>
+            <class name="com.tests.LoginTest">
+                <methods>
+                    <include name="verifyUserLoginWithCorrectCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

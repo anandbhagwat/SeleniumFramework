@@ -1,12 +1,10 @@
 package commonLibs.implementation;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import net.bytebuddy.implementation.bytecode.Throw;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -62,4 +60,12 @@ public class CommonDriver {
     public void setElementDetectionTimeout(int elementDetectionTimeout) {
         this.elementDetectionTimeout = elementDetectionTimeout;
     }
+
+    public void  closeAllBrowser(){
+        driver.close();
+    }
+    public String  getTitleOfThePage(){
+        return  driver.getTitle();
+    }
+
 }
