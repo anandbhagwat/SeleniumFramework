@@ -4,9 +4,13 @@ GUI Run:
 `Run testng.xml`
 
 Command Line Run:
+
 `mvn test -Dusername=mngr301491 -Dpassword=savYvuq`
+
 OR
+
 `mvn clean test -DsuiteXmlFile=testng.xml -Dusername=mngr301491 -Dpassword=savYvuq`
+
 
 
 Issues and Solutions:
