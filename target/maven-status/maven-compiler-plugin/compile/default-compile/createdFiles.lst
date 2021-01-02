@@ -3,3 +3,4 @@ com/app/pages/Homepage.class
 com/app/pages/LoginPage.class
 com/app/pages/BasePage.class
 commonLibs/implementation/CommonDriver.class
+commonLibs/utils/ConfigUtilities.class

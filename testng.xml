@@ -5,7 +5,7 @@
         <parameter name="username" value="mngr301491"></parameter>
         <parameter name="password" value="savYvuq"></parameter>
         <classes>
-            <class name="com.tests.LoginTest">
+            <class name="com.app.tests.LoginTest">
                 <methods>
                     <include name="verifyUserLoginWithCorrectCredentials"/>
                 </methods>

@@ -1,13 +1,13 @@
-package com.tests;
+package com.app.tests;
 
-import com.app.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTests{
-    @Parameters({"username", "password"})
+
     @Test
+    @Parameters({"username", "password"})
     public void verifyUserLoginWithCorrectCredentials(String username, String password){
             loginPage.loginToApplication(username, password);
 
