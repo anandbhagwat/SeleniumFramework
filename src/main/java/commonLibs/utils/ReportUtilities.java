@@ -33,4 +33,8 @@ public class ReportUtilities {
         public void flushReport(){
             extentReports.flush();
         }
+
+        public  void attachScreenshotToReport(String filename) throws Exception{
+            extentTest.addScreenCaptureFromPath(filename);
+        }
 }

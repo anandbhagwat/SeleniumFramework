@@ -13,11 +13,12 @@ public class LoginTest extends BaseTests{
             loginPage.loginToApplication(username, password);
             reportUtilities.createATestCase("Verify User Login With Correct Credentials");
             reportUtilities.addTestlogs(Status.INFO,"Performing Login");
-            String expectTitle= "Guru99 Bank Manager HomePage";
+            String expectTitle= "OrangeHRM";
             String actualTitle;
             actualTitle = commonDriver.getTitleOfThePage();
             reportUtilities.addTestlogs(Status.INFO,"Asserting Page Title After Login");
             Assert.assertEquals(actualTitle, expectTitle);
+
 
     }
 }

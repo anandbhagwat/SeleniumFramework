@@ -39,6 +39,7 @@ public class CommonDriver {
 
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
+
     }
 
 
@@ -62,6 +63,7 @@ public class CommonDriver {
     }
 
     public void  closeAllBrowser(){
+
         driver.close();
     }
     public String  getTitleOfThePage(){

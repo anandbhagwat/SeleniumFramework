@@ -7,13 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends BasePage{
 
-    @FindBy(name = "uid")
+    @FindBy(name = "txtUsername")
     private WebElement userId;
 
-    @FindBy(name = "password")
+    @FindBy(name = "txtPassword")
     private WebElement userPassword;
 
-    @FindBy(name = "btnLogin")
+    @FindBy(name = "Submit")
     private WebElement loginButton;
 
     public  LoginPage(WebDriver driver){
